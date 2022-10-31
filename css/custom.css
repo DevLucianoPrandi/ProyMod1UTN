@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #1023;
+}
+.titulo{
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
