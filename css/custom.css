@@ -5,8 +5,11 @@
 body{
     background-color: #1023;
 }
-.titulo{
+#titulo{
     text-align: center;
     margin-left: 0px;
     margin-right: 0px;
+    color: #fff;
+    border: 2rem #fff;
+    text-shadow: 0.1rem 0.1rem #000;
 }
