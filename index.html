@@ -1,43 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/custom.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <title>Interlingua</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
       <div id="titulo"></div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="50px" padding-bottom="30px" alt="Interlingua logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="50px" alt="Interlingua logo"/></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Características</a>
+                <a class="nav-link" href="#">Cursos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Precios</a>
+                <a class="nav-link" href="#">Calendario</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Deshabilitado</a>
+                <a class="nav-link">Inscripción</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
-    <div class="grid">Prueba</div>
+    <div id="carouselInterval" class="carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="./img/imagen1.jpg" class="d-block w-100" alt="imagen1">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./img/imagen2.jpg" class="d-block w-100" alt="imagen2">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./img/imagen3.jpg" class="d-block w-100" alt="imagen3">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./img/imagen4.jpg" class="d-block w-100" alt="imagen4">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">cd f:/
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="flexinicio">
+      <div class="info"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius obcaecati sed tenetur placeat, ad tempore amet omnis, sit quaerat dignissimos officia minima et facilis consequatur sint voluptatum, reprehenderit porro sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum magni, eaque ipsum mollitia labore delectus, quasi deleniti libero consequuntur rerum dicta asperiores ab, nam magnam beatae. Officia hic amet laboriosam.</p></div>
+      <div class="info"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt perferendis, dolores in porro impedit maiores, magnam soluta minima debitis dignissimos iste amet dolor aperiam nemo id voluptate, at dolorem incidunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus quisquam incidunt, quidem non obcaecati a repudiandae hic dicta quas modi, molestias nesciunt ut! Magnam nihil possimus veniam fuga repellendus? Sequi.</p></div>
+      <div class="info"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, illum cupiditate autem deserunt quod dolorum repellendus sed mollitia in ipsum consequuntur reprehenderit nemo ipsa nisi ea, aliquam rerum earum molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus incidunt error eligendi laborum, illo doloribus sequi quia ullam debitis in ducimus quae hic asperiores consectetur et odio distinctio. Tempora!</p></div>
+    </div>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>

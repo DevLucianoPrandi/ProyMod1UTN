@@ -1,11 +1,13 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-body{
+
+body {
     background-color: #1023;
 }
-#titulo{
+
+#titulo {
     text-align: center;
     margin-left: 0px;
     margin-right: 0px;
@@ -13,9 +15,18 @@ body{
     border: 2rem #fff;
     text-shadow: 0.1rem 0.1rem #000;
 }
-.grid{
-    display: grid;
-    grid-template-columns: 20rem 60rem 60rem;
-    border: 1rem #000
-    grid-template-rows: ;
+
+.flexinicio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.info {
+    margin-top: 2rem;
+    padding: 0.2rem;
+    width: 25rem; ;
+    border-style: ;
+    border: #000 solid 0.2rem;
 }
